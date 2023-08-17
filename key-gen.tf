@@ -1,5 +1,5 @@
 resource "aws_key_pair" "automation" {
   key_name   = "automation"
-  public_key = file("~/.ssh/automation.pub")
+  public_key = file("~/.ssh/gitlab.pub")
 
 }
